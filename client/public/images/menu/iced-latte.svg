@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e0ebf0"/><stop offset="1" stop-color="#c3d8e2"/></linearGradient>
+<radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff" stop-opacity=".65"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<filter id="blur" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="14"/></filter>
+
+<radialGradient id="saucer" cx=".4" cy=".35" r=".8"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e9e1d6"/></radialGradient>
+<radialGradient id="cupbody" cx=".4" cy=".35" r=".9"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#efe8de"/></radialGradient>
+<radialGradient id="espresso" cx=".45" cy=".4" r=".7"><stop offset="0" stop-color="#c98a4b"/><stop offset=".55" stop-color="#7d4521"/><stop offset="1" stop-color="#3a1d0c"/></radialGradient>
+<radialGradient id="americano" cx=".45" cy=".4" r=".75"><stop offset="0" stop-color="#6a3b1b"/><stop offset=".7" stop-color="#40220e"/><stop offset="1" stop-color="#2a1508"/></radialGradient>
+<radialGradient id="milkcoffee" cx=".5" cy=".5" r=".7"><stop offset="0" stop-color="#9c6a3f"/><stop offset="1" stop-color="#6a4023"/></radialGradient>
+<radialGradient id="mochaliq" cx=".5" cy=".5" r=".7"><stop offset="0" stop-color="#6b3d2a"/><stop offset="1" stop-color="#3f2116"/></radialGradient>
+<radialGradient id="rooibos" cx=".45" cy=".4" r=".75"><stop offset="0" stop-color="#d4642a"/><stop offset=".7" stop-color="#a23c15"/><stop offset="1" stop-color="#7a2a0e"/></radialGradient>
+<radialGradient id="greentea" cx=".45" cy=".4" r=".75"><stop offset="0" stop-color="#e2db86"/><stop offset=".7" stop-color="#b5b653"/><stop offset="1" stop-color="#8d9a3e"/></radialGradient>
+<radialGradient id="chailiq" cx=".45" cy=".4" r=".75"><stop offset="0" stop-color="#d7a56d"/><stop offset=".7" stop-color="#b57c45"/><stop offset="1" stop-color="#8d5b2e"/></radialGradient>
+<radialGradient id="cream" cx=".4" cy=".35" r=".8"><stop offset="0" stop-color="#fffaf1"/><stop offset="1" stop-color="#eedcc0"/></radialGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4bf63"/><stop offset=".55" stop-color="#dd8f2e"/><stop offset="1" stop-color="#b4631a"/></linearGradient>
+<linearGradient id="muffintop" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eab165"/><stop offset="1" stop-color="#bf7a30"/></linearGradient>
+<linearGradient id="dough" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#efc085"/><stop offset="1" stop-color="#cf8f4a"/></linearGradient>
+<linearGradient id="choc" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a3322"/><stop offset="1" stop-color="#3a1f13"/></linearGradient>
+<linearGradient id="toast" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9b46a"/><stop offset="1" stop-color="#c98a3f"/></linearGradient>
+<linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f4f4"/><stop offset="1" stop-color="#b9b9b9"/></linearGradient>
+<linearGradient id="icedlatte" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6ead6"/><stop offset=".35" stop-color="#d9b48a"/><stop offset="1" stop-color="#5e3519"/></linearGradient>
+<linearGradient id="frappeliq" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d6b186"/><stop offset="1" stop-color="#a06c3d"/></linearGradient>
+</defs>
+<rect width="800" height="600" fill="url(#bg)"/>
+<circle cx="400" cy="300" r="330" fill="url(#glow)"/>
+
+<g transform="translate(400 305) rotate(0) scale(1.12)"><ellipse cx="0" cy="196" rx="150" ry="22" fill="#2f2013" opacity=".25" filter="url(#blur)"/>
+<clipPath id="gl"><path d="M-105 -170 L105 -170 L82 168 Q80 186 60 186 L-60 186 Q-80 186 -82 168 Z"/></clipPath>
+<path d="M-105 -170 L105 -170 L82 168 Q80 186 60 186 L-60 186 Q-80 186 -82 168 Z" fill="#fff" fill-opacity=".28"/>
+<g clip-path="url(#gl)">
+<rect x="-120" y="-110" width="240" height="310" fill="url(#icedlatte)"/>
+<g transform="translate(-45 -70) rotate(-12) scale(1)"><rect x="-32" y="-32" width="64" height="64" rx="12" fill="#fff" fill-opacity=".32" stroke="#fff" stroke-opacity=".75" stroke-width="3"/><path d="M-20 -18 L-8 -22" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".8"/></g><g transform="translate(48 -45) rotate(18) scale(1)"><rect x="-32" y="-32" width="64" height="64" rx="12" fill="#fff" fill-opacity=".32" stroke="#fff" stroke-opacity=".75" stroke-width="3"/><path d="M-20 -18 L-8 -22" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".8"/></g><g transform="translate(-30 20) rotate(25) scale(0.95)"><rect x="-32" y="-32" width="64" height="64" rx="12" fill="#fff" fill-opacity=".32" stroke="#fff" stroke-opacity=".75" stroke-width="3"/><path d="M-20 -18 L-8 -22" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".8"/></g><g transform="translate(40 70) rotate(-10) scale(0.9)"><rect x="-32" y="-32" width="64" height="64" rx="12" fill="#fff" fill-opacity=".32" stroke="#fff" stroke-opacity=".75" stroke-width="3"/><path d="M-20 -18 L-8 -22" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".8"/></g><g transform="translate(-35 105) rotate(8) scale(0.8)"><rect x="-32" y="-32" width="64" height="64" rx="12" fill="#fff" fill-opacity=".32" stroke="#fff" stroke-opacity=".75" stroke-width="3"/><path d="M-20 -18 L-8 -22" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".8"/></g>
+<line x1="36" y1="-240" x2="-8" y2="80" stroke="#c9453a" stroke-width="16" stroke-linecap="round"/><line x1="36" y1="-240" x2="-8" y2="80" stroke="#fff" stroke-width="16" stroke-dasharray="14 22" opacity=".9"/>
+<rect x="-98" y="-165" width="22" height="340" rx="11" fill="#fff" opacity=".2"/>
+</g>
+<path d="M-105 -170 L105 -170 L82 168 Q80 186 60 186 L-60 186 Q-80 186 -82 168 Z" fill="none" stroke="#fff" stroke-opacity=".9" stroke-width="5"/>
+<ellipse cx="0" cy="-170" rx="105" ry="12" fill="none" stroke="#fff" stroke-opacity=".85" stroke-width="4"/></g>
+</svg>
